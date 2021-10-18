@@ -80,7 +80,7 @@ variable "asg_desired_capacity" {
 
 variable "asg_max_size" {
   description = "Autoscaling maximum capacity"
-  default = "1"
+  default = "3"
   type    = string
 }
 
